@@ -1,0 +1,109 @@
+body {
+	margin : 0;
+	font-family: 'Brush Script MT', cursive;
+	font-size: 2.5em;
+}
+.game-name {
+	font-size : 4em;
+	color : #f9fbfe;
+}
+.game-name-sub {
+	color : #555666;
+}
+.welcome-panel {
+	text-align: center;
+	background: #e15b64;
+	color : #bdc3c7;
+	padding : 10px;
+}
+.play-panel {
+	text-align: center;
+	background: #16A085;
+	color : black;
+}
+.settings-panel {
+	text-align: center;
+	background: #26739c;
+	color : white;
+	padding : 10px;
+}
+.history-panel {
+	text-align: center;
+	background: #ECF0F1;
+	color : black;
+	padding-top : 10px;
+}
+
+.about-panel {
+	text-align: center;
+	background: white;
+	color : black;
+	padding-top : 10px;
+}
+
+.level-panel {
+	text-align: center;
+	background: white;
+	color : gray;
+	padding : 10px;
+}
+.score-panel {
+	background: #27AE60;
+	padding: 10px;
+	color : black;
+}
+.history-scroll {
+	border-radius: 20px;
+}
+.welcome-msg {
+	background: blue;
+}
+.welcome-divider {
+	width: 88%;
+  	height: 1px;
+  	background: #bdc3c7;
+  	margin: 15px auto;
+}
+.assigned-grid {
+	background: #27AE60;
+	border: 1px solid #2980B9;
+	color : white;
+}
+.unassigned-grid {
+	border: 1px solid #27AE60;
+	color: red;
+}
+.active-grid {
+	background: orange;
+	border : 1px solid #2980B9;
+}
+.back-grid {
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	box-shadow: 2px 1px -4px 1px lightgray;
+}
+.date {
+	float: left;
+}
+.score {
+	float: right;
+}
+.about-div {
+	font-size: 0.6em;
+	padding-bottom: 30px;
+}
+.about-div ul {
+	padding-right: 10px;
+	list-style: none;
+	list-style-type: none;
+  	padding: 0;
+}
+.about-div img {
+	width : 300px;
+	height : auto;
+	margin: 10px;
+}
+.about-div .about-main {
+	font-size: 0.8em;
+	color : #27AE60;
+}
